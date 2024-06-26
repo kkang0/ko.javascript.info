@@ -1,12 +1,13 @@
-# Methods of RegExp and String
+# RegExp와 문자열의 방법
 
 In this article we'll cover various methods that work with regexps in-depth.
+이 문서에서 우리는 reqexps와 함께 작동하는 다양한 방법을 심층적으로 다룰 것입니다.
 
 ## str.match(regexp)
 
 The method `str.match(regexp)` finds matches for `regexp` in the string `str`.
 
-It has 3 modes:
+3가지 모드가 있습니다:
 
 1. If the `regexp` doesn't have flag `pattern:g`, then it returns the first match as an array with capturing groups and properties `index` (position of the match), `input` (input string, equals `str`):
 
